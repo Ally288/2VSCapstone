@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#tournament{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game{
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#round{
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
