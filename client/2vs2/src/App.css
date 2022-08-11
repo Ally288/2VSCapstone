@@ -7,22 +7,25 @@
   pointer-events: none;
 }
 
-#tournament{
+#tournament {
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#game{
+#game {
 
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-style: solid;
+  margin: 5px;
+  padding: 10px;
 
 }
 
-#round{
+#round {
 
   flex-direction: column;
   justify-content: center;

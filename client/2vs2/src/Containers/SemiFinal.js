@@ -2,13 +2,16 @@ import React from "react";
 import Game from "../Components/Game/Game";
 import { useState } from "react";
 
-const SemiFinal = ({players}) => {
+const SemiFinal = ({ players, getfinalist1, getfinalist2 }) => {
+
+
 
 
     return (
         <div id='round'>
-            <h1>{players[0]["name"]} </h1>
-        <Game players ={players}/>
+
+            <Game name={"Semi-Final"} player1={players[0]} player2={players[1]} getWinners={getfinalist1} />
+            <Game name={"Semi-Final"} player1={players[2]} player2={players[3]} getWinners={getfinalist2} />
         </div>
     )
 
